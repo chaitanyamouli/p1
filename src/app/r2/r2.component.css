@@ -1,0 +1,48 @@
+section{
+    background: url(../../assets/images/w.jpg);
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section .title h1 {
+    padding-top: 3%;
+    text-align: center;
+    color: rgb(188, 17, 80);
+    font-weight: 400;
+}
+
+section .title h4 {
+    padding-left: 20%;
+    text-align: left;
+    padding-top: 3%;
+    color: rgba(31, 4, 79, 0.265);
+    font-weight: 400;
+}
+
+section .sub p {
+    color: rgb(8, 8, 8);
+} 
+
+section .sub {
+    display: flex;
+}
+section .title .sub .center{
+    margin-left: auto;
+    margin-right: auto;
+}
+section .sub table tr td p{
+  text-align: justify; 
+  padding-left: 3%;
+  padding-top: 5%;
+}
+section .sub table tr td iframe{
+    padding-left: 10%;
+    padding-bottom: 10%;
+    padding-top: 5%;
+}
+section .title .desc p{
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: justify;
+    color: rgb(9, 7, 6);
+}

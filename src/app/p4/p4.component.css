@@ -1,0 +1,56 @@
+section{
+    background: url(../../assets/images/bach5.webp);
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+section .title h1 {
+    padding-top: 3%;
+    text-align: center;
+    color: rgb(4, 30, 53);
+    font-weight: 400;
+}
+
+section .title h4 {
+    text-align: center;
+    color: rgb(39, 61, 91);
+    font-weight: 400;
+}
+
+section .sub p {
+    padding-left: 30px;
+    color: rgb(144, 52, 24);
+    font-weight: 500;
+}
+
+section .sub {
+    display: flex;
+}
+section .sub .center{
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10%;
+}
+section .sub table tr td p{
+  text-align: left;
+  font-weight: 700%;
+  color: rgb(8, 8, 8);
+  width: 80%;;
+  padding-top:5%;
+}
+section .sub table tr td iframe{
+    padding-bottom: 10%;
+}
+section img{
+    padding-left: 35%;
+    height: 80%;
+    width: 70%;
+}
+section .desc p{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+    color: rgb(14, 14, 13);
+    font-weight: 400;
+}

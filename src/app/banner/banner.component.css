@@ -1,0 +1,28 @@
+.video-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+  }
+  
+  .overlay p {
+    font-size: 24px;
+    color: white;
+  }
+  
+  .overlay button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  

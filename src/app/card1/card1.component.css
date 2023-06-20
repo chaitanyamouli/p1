@@ -1,0 +1,58 @@
+section {
+    background: url(../../assets/images/bg.jpg);
+    background-size: cover;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+section .title {
+    /* text-align: center; */
+    color: rgb(185, 76, 13);
+}
+section .desc{
+    color: #060404;
+    font-weight: 480;
+    text-align: justify;
+    font-style: initial;
+}
+section .t1{
+    text-align: center;
+    color: rgb(121, 154, 200);
+}
+section .row .col .card .card-title {
+    text-align: center;
+}
+section .row .col .card .card-title h1{
+    color: #060404;
+    font-size: 1.5rem;
+    padding-top: 15px;
+}
+section .row .col .card .card-title .card-body p{
+    font-size: 0.9rem; 
+    /* justify-content:flex-end */
+    font-style: oblique;
+    /* text-align: justify; */
+}
+section .row .col .card .card-title .card-body button{
+    background-color: rgb(134, 48, 8);
+    border: none;
+    border-radius: 3px;
+    color: rgb(238, 235, 243);
+    font-weight: 400;
+    padding: 2px 4px;
+    transition: 0.5;
+
+}
+section .row .col .card .card-title .card-body button:hover{
+    background-color: rgb(232, 153, 69);
+}
+section .row .col .card{
+    transition: transform 420ms ;
+}
+section .row .col .card:hover{
+    transform: scale(1.09);
+}
+h3{
+    text-align: center;
+    color: rgb(216, 108, 50);
+}
