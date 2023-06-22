@@ -3,13 +3,16 @@
 }
 
 .gradient-custom {
-  /* fallback for old browsers */
-  background: #c471f5;
+  
+  background-color: rgb(11, 95, 95);
+}
 
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-linear-gradient(to right, rgb(193, 51, 61), rgb(206, 147, 51));
+.navbar .container-fluid .navbar-brand{
+ font-family: 'Courier New', Courier, monospace;
+ font-weight: 500;
+}
 
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: linear-gradient(to right, rgb(157, 32, 72), rgb(201, 142, 40))
+.navbar .container-fluid .collapse ul{
+  font-family:'Courier New', Courier, monospace ;
 }
 

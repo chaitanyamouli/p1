@@ -1,0 +1,26 @@
+section{
+    background: url(../../assets/Images/back6.jpg);
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section .center{
+   margin-left: auto;
+   margin-right: auto;
+}
+section .center tr td img {
+    padding-top: 5%;
+    padding-left: 10%;
+}
+section .center tr .add{
+    padding-top: 10%;
+    padding-left: 30%;
+}
+
+section .center tr td{
+    padding-top: 5%;
+    padding-left: 23%;
+}
+section .center tr td p{
+    padding-left: 0%;
+}

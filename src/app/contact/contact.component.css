@@ -1,5 +1,16 @@
+section{
+    background: url(../../assets/images/bg-c.jpeg);
+    background-position: absolute;
+    background-size: cover;
+}
+.container{
+    background: rgb(244, 200, 228);
+   background-position: absolute;
+   background-size: cover;
+   padding-bottom: 5%;
+}
 .log img{
-    padding-left: 600px;
+    padding-left: 625px;
     margin-top: 25px;
     height: 250px;
 
@@ -28,8 +39,14 @@ label {
     margin-top: 5px;
 
 }
-
 .card{
 	margin-left: 10px;
 	margin-right: 10px;
+}
+.col-md-12 .btn{
+  align-content: center;
+  padding-top: 5%;
+  margin-left: auto;
+  margin-left: auto;
+  background-color: rgb(33, 33, 253);
 }

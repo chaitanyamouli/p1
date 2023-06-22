@@ -1,3 +1,4 @@
+<app-navbar1></app-navbar1>
 <section class="mt-4 mxx-4" >
     <div class="title"><h1> Visakhapatnam(vizag)</h1></div><br>
     <div class="desc"><p>Visakhapatnam is a major commercial and administrative centre with road, rail, and air connections.Visakhapatnam’s natural harbour is formed by two promontories, the southern one of which is separated from the city by a small river. Improvements to the harbour have made it capable of accommodating several large ships at a time.The city is also an important shipbuilding centre; the first steamer to be built in India was launched in Visakhapatnam’s harbour in 1948. Manganese, oilseeds, and iron ore are exported at Visakhapatnam, and the city has an oil refinery, a steel plant, and industrial complexes for the production of petrochemicals, fertilizer, sugar, and jute. A medical college and medical museum are in the city. A submarine museum is at Ramakrishna Beach.</p></div> <br>
@@ -10,7 +11,8 @@
                     <h1>{{l1.title}}</h1>
                     <div class="card-body">
                         <p>{{l1.desc}}</p>
-                        <button (click)="Onclick()">{{l1.button}}</button>
+                        <button [routerLink]="getRoute(l1.category)">{{l1.button}}</button>
+                      
                     </div>
                 </div>
             </div>
@@ -25,7 +27,7 @@
                     <h1>{{l2.title}}</h1>
                     <div class="card-body">
                         <p>{{l2.desc}}</p>
-                        <button (click)="Onclick()">{{l2.button}}</button>
+                        <button [routerLink]="getroute(l2.category)">{{l2.button}}</button>
                     </div>
                 </div>
             </div>
@@ -40,7 +42,7 @@
                     <h1>{{l3.title}}</h1>
                     <div class="card-body">
                         <p>{{l3.desc}}</p>
-                        <button (click)="Onclick()">{{l3.button}}</button>
+                        <button [routerLink]="getroutes(l3.category)" >{{l3.button}}</button>
                     </div>
                 </div>
             </div>
@@ -55,11 +57,11 @@
                     <h1>{{l4.title}}</h1>
                     <div class="card-body">
                         <p>{{l4.desc}}</p>
-                        <button (click)="Onclick()">{{l4.button}}</button>
+                        <button >{{l4.button}}</button>
                     </div>
                 </div>
             </div>
         </div>
     </div><br><br>
-    <h3 > Thank you for visiting our website :)</h3> <br><br>
+    <h3 > Thank you for visiting our website :</h3> <br><br>
 </section>

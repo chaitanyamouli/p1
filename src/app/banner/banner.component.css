@@ -2,7 +2,9 @@
     position: relative;
     display: inline-block;
   }
-  
+ .video-container h6{
+  color: rgb(204, 17, 17);
+ }
   .overlay {
     position: absolute;
     top: 50%;
@@ -12,6 +14,11 @@
     z-index: 1;
   }
   
+  .overlay h3{
+    text-align: top;
+    color: rgb(245, 29, 29);
+   
+  }
   .overlay p {
     font-size: 24px;
     color: white;
@@ -20,9 +27,10 @@
   .overlay button {
     padding: 10px 20px;
     font-size: 18px;
-    background-color: #007bff;
+    background-color: #047428;
     color: white;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
   }
   

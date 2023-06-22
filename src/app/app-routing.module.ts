@@ -20,6 +20,7 @@ import { R1Component } from './r1/r1.component';
 import { R2Component } from './r2/r2.component';
 import { R3Component } from './r3/r3.component';
 import { R4Component } from './r4/r4.component';
+import { D1Component } from './d1/d1.component';
 
 
 const routes: Routes = [
@@ -42,7 +43,8 @@ const routes: Routes = [
   {path:'r1',component:R1Component},
   {path:'r2',component:R2Component},
   {path:'r3',component:R3Component},
-  {path:'r4',component:R4Component}
+  {path:'r4',component:R4Component},
+  {path:'d1',component:D1Component}
   
 
 ];

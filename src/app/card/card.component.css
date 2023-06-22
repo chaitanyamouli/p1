@@ -5,11 +5,16 @@
   box-sizing: inherit;
   margin: 0;
   padding: 0;
+  
 }
 
-html { font-size: 62.5%; }
+html { font-size: 62.5%;
+  
+ }
 
 body {
+  background-color: #e9e4e4;
+  padding-top: 6%;
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
   position: relative;
