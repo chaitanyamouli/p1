@@ -2,10 +2,10 @@
 <section class="mt-4 mxx-4" >
     <div class="title"><h1> Visakhapatnam(vizag)</h1></div><br>
     <div class="desc"><p>Visakhapatnam is a major commercial and administrative centre with road, rail, and air connections.Visakhapatnam’s natural harbour is formed by two promontories, the southern one of which is separated from the city by a small river. Improvements to the harbour have made it capable of accommodating several large ships at a time.The city is also an important shipbuilding centre; the first steamer to be built in India was launched in Visakhapatnam’s harbour in 1948. Manganese, oilseeds, and iron ore are exported at Visakhapatnam, and the city has an oil refinery, a steel plant, and industrial complexes for the production of petrochemicals, fertilizer, sugar, and jute. A medical college and medical museum are in the city. A submarine museum is at Ramakrishna Beach.</p></div> <br>
-    <div class="t1"><h2>* Famous places *</h2></div> <br>
+    <div class="t1"><h2><u>Famous places</u></h2></div> <br>
     <div class="row row-cols-1 row-cols-md-4 g-4">
         <div class="col" *ngFor="let l1 of famous">
-            <div class="card shadow-lg" data-aos="zoom-in">
+            <div class="card shadow-lg" >
                 <img [src]="l1.src" [alt]="l1.alt" height="350px" >
                 <div class="card-title">
                     <h1>{{l1.title}}</h1>
@@ -18,10 +18,10 @@
             </div>
         </div>
     </div><br><br>
-    <div class="t1"><h2>* Recommended Restaurants *</h2></div> <br>
+    <div class="t1"><h2><u>Recommended Restaurants</u></h2></div> <br>
     <div class="row row-cols-1 row-cols-md-4 g-4">
         <div class="col" *ngFor="let l2 of restaurants">
-            <div class="card shadow-lg" data-aos="zoom-in">
+            <div class="card shadow-lg" >
                 <img [src]="l2.src" [alt]="l2.alt" height="350px" >
                 <div class="card-title">
                     <h1>{{l2.title}}</h1>
@@ -33,35 +33,35 @@
             </div>
         </div>
     </div><br><br>
-    <div class="t1"><h2>* Recommended Doctors *</h2></div> <br>
+    <div class="t1"><h2> <u>Recommended Doctors </u></h2></div> <br>
     <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col" *ngFor="let l3 of doctors">
-            <div class="card shadow-lg" data-aos="zoom-in">
+            <div class="card shadow-lg" >
                 <img [src]="l3.src" [alt]="l3.alt" height="350px" >
                 <div class="card-title">
                     <h1>{{l3.title}}</h1>
                     <div class="card-body">
                         <p>{{l3.desc}}</p>
-                        <button [routerLink]="getroutes(l3.category)" >{{l3.button}}</button>
+                        <button [routerLink]="getRou(l3.category)" >{{l3.button}}</button>
                     </div>
                 </div>
             </div>
         </div>
     </div><br><br>
-    <div class="t1"><h2>* Recommended Guides *</h2></div> <br>
+    <div class="t1"><h2><u>Recommended Guides</u></h2></div> <br>
     <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col" *ngFor="let l4 of guides">
-            <div class="card shadow-lg" data-aos="zoom-in">
+            <div class="card shadow-lg" >
                 <img [src]="l4.src" [alt]="l4.alt" height="350px" >
                 <div class="card-title">
                     <h1>{{l4.title}}</h1>
                     <div class="card-body">
                         <p>{{l4.desc}}</p>
-                        <button >{{l4.button}}</button>
+                        <button [routerLink]="getrout(l4.category)">{{l4.button}}</button>
                     </div>
                 </div>
             </div>
         </div>
     </div><br><br>
-    <h3 > Thank you for visiting our website :</h3> <br><br>
+    <h3 >**Thank you for Visiting our Website**</h3> <br><br>
 </section>

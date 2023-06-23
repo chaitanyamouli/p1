@@ -1,12 +1,10 @@
 import { Component } from '@angular/core';
-
 @Component({
   selector: 'app-card1',
   templateUrl: './card1.component.html',
   styleUrls: ['./card1.component.css']
 })
 export class Card1Component {
-
   famous = [
     {
       src: '../assets/images/b1.jpg',
@@ -57,7 +55,6 @@ export class Card1Component {
     else {
       return '';
     }
-
   }
   restaurants = [
     {
@@ -137,7 +134,7 @@ export class Card1Component {
 
     }
   ]
-  getroutes(category: string): string {
+  getRou(category: string): string {
     if (category == 'd1') {
       return '../d1';
     }
@@ -157,21 +154,49 @@ export class Card1Component {
       alt: 'item1',
       title: 'Mis. Madhumathi',
       desc: 'I am a very good English speaker. I was very passionate about travelling and guiding. I have many best concepts to travel with thrills you and have very good information about places and good time fun time. ',
-      button: 'Book Guide'
+      button: 'Book Guide',
+      category:'g1'
     },
     {
       src: '../assets/images/t.jpg',
       alt: 'item2',
       title: 'Mr. Surya Kumar',
       desc: 'I Love Travelling!I am from Andhrapradesh!Economy is my first concern. I can assist tourists/travellers in getting good food, accomdation and travel things in good price.I am a very good English speaker.',
-      button: 'Book Guide'
+      button: 'Book Guide',
+      category:'g2'
     },
     {
       src: '../assets/images/tt.jpg',
       alt: 'item2',
       title: 'Mis. Sunethri',
       desc: 'I am born & brought up in Visakhapatnam, well versed with best. Beaches, Parks, Hill Stations, Meusems etc. I am confident with my communication skills.I am able to deal with all people nicely. ',
-      button: 'Book Guide'
+      button: 'Book Guide',
+      category:'g3'
     }
-  ]
+  ];
+  getrout(category: string): string {
+    if (category == 'g1') {
+      return '../g1';
+    }
+    else if (category == 'g2') {
+      return '../g1';
+    }
+    else if (category == 'g3') {
+      return '../g1';
+    }
+    else if (category == 'g4') {
+      return '../g1';
+    }
+    else {
+      return '';
+    }
+    // Onclick() {
+    // this.routes.navigateByUrl('')
+
+  }
+
 }
+
+
+
+

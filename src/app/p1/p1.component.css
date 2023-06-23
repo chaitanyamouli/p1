@@ -1,24 +1,27 @@
 section{
-    background: url(../../assets/images/back2.jpg);
+    /* background: url("src\assets\images\pink.jpg");
+     */
+     background-color:white;
     background-position: absolute;
     background-repeat: no-repeat;
     background-size: cover;
 }
 section .title h1 {
     text-align: center;
-    color: aliceblue;
-    font-weight: 400;
+    color:black;
+    font-weight: 500;
 }
 
 section .title h4 {
     text-align: center;
-    color: rgb(250, 249, 248);
-    font-weight: 400;
+    color:black;
+    font-weight: 500;
 }
 
 section .sub p {
     padding-left: 30px;
-    color: azure;
+    color:black;
+    font-weight: 500;
 }
 
 section .sub {
@@ -40,7 +43,8 @@ section .desc p{
     padding-left: 10%;
     padding-right: 10%;
     text-align: justify;
-    color: rgb(254, 251, 248);
+    color:black;
+    font-weight: 500;
 }
 section img{
     padding-left: 35%;

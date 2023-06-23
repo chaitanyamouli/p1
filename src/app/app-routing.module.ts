@@ -21,6 +21,13 @@ import { R2Component } from './r2/r2.component';
 import { R3Component } from './r3/r3.component';
 import { R4Component } from './r4/r4.component';
 import { D1Component } from './d1/d1.component';
+import { D2Component } from './d2/d2.component';
+import { D3Component } from './d3/d3.component';
+import { L1Component } from './l1/l1.component';
+import { L2Component } from './l2/l2.component';
+import { L3Component } from './l3/l3.component';
+import { L4Component } from './l4/l4.component';
+import { G1Component } from './g1/g1.component';
 
 
 const routes: Routes = [
@@ -44,9 +51,14 @@ const routes: Routes = [
   {path:'r2',component:R2Component},
   {path:'r3',component:R3Component},
   {path:'r4',component:R4Component},
-  {path:'d1',component:D1Component}
-  
-
+  {path:'d1',component:D1Component},
+  {path:'d2',component:D2Component},
+  {path: 'd3',component:D3Component},
+  {path:'l1',component:L1Component},
+  {path:'l2',component:L2Component},
+  {path:'l3',component:L3Component},
+  {path:'l4',component:L4Component},
+  {path:'g1',component:G1Component}
 ];
 
 @NgModule({

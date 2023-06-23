@@ -31,6 +31,20 @@ import { R3Component } from './r3/r3.component';
 import { R4Component } from './r4/r4.component';
 import { D1Component } from './d1/d1.component';
 import { FaqComponent } from './faq/faq.component';
+import { D2Component } from './d2/d2.component';
+import { D3Component } from './d3/d3.component';
+import { L1Component } from './l1/l1.component';
+import { L2Component } from './l2/l2.component';
+import { L3Component } from './l3/l3.component';
+import { L4Component } from './l4/l4.component';
+import { E1Component } from './e1/e1.component';
+import { E2Component } from './e2/e2.component';
+import { E3Component } from './e3/e3.component';
+import { E4Component } from './e4/e4.component';
+import { O1Component } from './o1/o1.component';
+import { O2Component } from './o2/o2.component';
+import { O3Component } from './o3/o3.component';
+import { G1Component } from './g1/g1.component';
 
 
 
@@ -65,7 +79,21 @@ import { FaqComponent } from './faq/faq.component';
     R3Component,
     R4Component,
     D1Component,
-    FaqComponent
+    FaqComponent,
+    D2Component,
+    D3Component,
+    L1Component,
+    L2Component,
+    L3Component,
+    L4Component,
+    E1Component,
+    E2Component,
+    E3Component,
+    E4Component,
+    O1Component,
+    O2Component,
+    O3Component,
+    G1Component
    
     
     

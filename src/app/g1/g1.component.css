@@ -1,0 +1,13 @@
+section{
+    background-color: rgb(241, 220, 220);
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section h1{
+    text-align: center;
+}
+section .center{
+    margin-left: 20% ;
+    margin-right:30%;
+}

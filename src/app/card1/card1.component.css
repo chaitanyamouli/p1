@@ -1,13 +1,14 @@
 section {
-    background: url(../../assets/images/bg.jpg);
+    /* background: url("src\assets\images\free.jpg"); */
     background-size: cover;
     position: absolute;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    padding-top: 0%;
 }
 section .title {
     /* text-align: center; */
-    color: rgb(185, 76, 13);
+    color:darkred;
 }
 section .desc{
     color: #060404;
@@ -17,7 +18,7 @@ section .desc{
 }
 section .t1{
     text-align: center;
-    color: rgb(121, 154, 200);
+    color:darkred;
 }
 section .row .col .card .card-title {
     text-align: center;
@@ -54,5 +55,5 @@ section .row .col .card:hover{
 }
 h3{
     text-align: center;
-    color: rgb(216,108,50);
+    color:darkred;;
 }

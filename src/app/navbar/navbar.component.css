@@ -3,9 +3,12 @@
 }
 
 .gradient-custom {
-  
-  background-color: rgb(11, 95, 95);
+  padding-top: 0%;
+  padding-bottom: 0%;
+  /* min-height: 10%; */
+  background-color: rgb(59, 116, 87);
 }
+
 
 .navbar .container-fluid .navbar-brand{
  font-family: 'Courier New', Courier, monospace;

@@ -10,9 +10,10 @@ section{
    padding-bottom: 5%;
 }
 .log img{
-    padding-left: 625px;
+    padding-left:500px;
     margin-top: 25px;
     height: 250px;
+
 
 }
 body {
@@ -49,4 +50,5 @@ label {
   margin-left: auto;
   margin-left: auto;
   background-color: rgb(33, 33, 253);
+  font-weight: 600;
 }

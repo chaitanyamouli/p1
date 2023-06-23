@@ -14,9 +14,9 @@ body {
   
   #upper-side {
     padding: 2em;
-    background-color: #8BC34A;
+    background-color:#757575;
     display: block;
-    color: #fff;
+    color:black;
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
   }
@@ -46,7 +46,7 @@ body {
   
   #message {
     margin-top: -.5em;
-    color: #757575;
+    color:#757575;
     letter-spacing: 1px;
   }
   
@@ -54,8 +54,8 @@ body {
     position: relative;
     top: 1.5em;
     text-decoration: none;
-    background: #8bc34a;
-    color: #fff;
+    background:#757575;
+    color:black;
     margin: auto;
     padding: .8em 3em;
     -webkit-box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.21);

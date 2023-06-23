@@ -5,71 +5,73 @@
 
 
 .bg-img {
-    background-image: url("../../assets/images/images(12).png"); 
-    min-height:500px;
-    background-position:center;
-    background-size: cover;
-    /* filter: blur(1px); */
-    width: 50%;
-    height: 50%;
-    margin-top: 10%;
-    padding-left: 20%;
-    /* height: 10%; */
-    margin-right: 40%;
-    background-repeat: no-repeat;
-    
+  background-image: url("../../assets/images/images(12).png"); 
+  min-height:500px;
+  background-position:center;
+  background-size: cover;
+  /* filter: blur(1px); */
+  width: 30%;
+  height: 50%;
+  margin-top: 10%;
+  padding-left: 20%;
+  padding-right: 30%;
+  padding-bottom: 30%;
+  /* height: 10%; */
+  margin-right: 60%;
+  background-repeat: no-repeat;
+  
 }
 
 .h1{
-    font-size: 22px;
-    color: rgb(0, 0, 0);
-    display: flex;
-    position: relative;
-  }
- section .bg-img .bg .container{
-    padding-top: 10%;
-  }
+  font-size: 22px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  position: relative;
+}
+section .bg-img .bg .container{
+  padding-top: 10%;
+}
 
 .container1 {
-  right: 0;
-  max-height: 600px;
-  max-width: 350px;
-  background-color: transparent;
-  padding: 1.5%;
-  /* padding-top: 5%; */
-  position: absolute;
-  margin-right: 35%;
-  margin: 0% 20%;
-  /* background-color:#EDF2F5; */
-  border: solid 3px;
-  /* border: solid 2px; */
+right: 0;
+max-height: 600px;
+max-width: 350px;
+background-color: transparent;
+padding: 1.5%;
+padding-top: 5%;
+position: absolute;
+margin-right: 35%;
+margin: 0% 20%;
+/* background-color:#EDF2F5; */
+border: solid 3px;
+/* border: solid 2px; */
 
 }
 .container h1{
-  text-align: center;
+text-align: center;
 }
 input[type=text], input[type=password] {
-  width: 100%;
-  padding-top: 10px;
-  margin: 5px 0 22px 0;
-  border: none;
-  background: #f5f8f6;
+width: 100%;
+padding-top: 10px;
+margin: 5px 0 22px 0;
+border: none;
+background: #f5f8f6;
 
 }
 input[type=text]:focus, input[type=password]:focus {
-  background-color:#edecec ;
-  outline: none;
+background-color:#edecec ;
+outline: none;
 }
 .btn {
-  background-color: #77b1d8;
-  color: white;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
+background-color: #77b1d8;
+color: white;
+padding-top: 10px;
+padding-bottom: 10px;
+border: none;
+cursor: pointer;
+width: 100%;
+opacity: 0.9;
 }
 .btn:hover {
-  opacity: 1;
+opacity: 1;
 }

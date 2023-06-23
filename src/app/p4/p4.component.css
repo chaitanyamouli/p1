@@ -1,5 +1,7 @@
 section{
-    background: url(../../assets/images/bach5.webp);
+    /* background: url("src\assets\images\pink.jpg");
+     */
+     background-color: white;
     background-position: absolute;
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,19 +10,19 @@ section{
 section .title h1 {
     padding-top: 3%;
     text-align: center;
-    color: rgb(4, 30, 53);
-    font-weight: 400;
+    color:black;
+    font-weight: 500;
 }
 
 section .title h4 {
     text-align: center;
-    color: rgb(39, 61, 91);
-    font-weight: 400;
+    color: black;
+    font-weight: 500;
 }
 
 section .sub p {
     padding-left: 30px;
-    color: rgb(144, 52, 24);
+    color:black;
     font-weight: 500;
 }
 
@@ -34,8 +36,8 @@ section .sub .center{
 }
 section .sub table tr td p{
   text-align: left;
-  font-weight: 700%;
-  color: rgb(8, 8, 8);
+  font-weight: 500;
+  color:black;
   width: 80%;;
   padding-top:5%;
 }
@@ -51,6 +53,6 @@ section .desc p{
     padding-left: 10%;
     padding-right: 10%;
     text-align: justify;
-    color: rgb(14, 14, 13);
-    font-weight: 400;
+    color:black;
+    font-weight: 500;
 }

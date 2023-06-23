@@ -1,5 +1,6 @@
 section{
-    background: url(../../assets/images/w.jpg);
+    /* background: url(../../assets/images/w.jpg); */
+    background-color: aliceblue;
     background-position: absolute;
     background-repeat: no-repeat;
     background-size: cover;
@@ -7,20 +8,21 @@ section{
 section .title h1 {
     padding-top: 3%;
     text-align: center;
-    color: rgb(188, 17, 80);
-    font-weight: 400;
+    color:darkred;
+    font-weight: 500;
 }
 
 section .title h4 {
     padding-left: 20%;
     text-align: left;
     padding-top: 3%;
-    color: rgba(31, 4, 79, 0.265);
-    font-weight: 400;
+    color:black;
+    font-weight: 500;
 }
 
 section .sub p {
-    color: rgb(8, 8, 8);
+    color:black;
+    font-weight: 500;
 } 
 
 section .sub {
@@ -44,5 +46,6 @@ section .title .desc p{
     padding-left: 20%;
     padding-right: 20%;
     text-align: justify;
-    color: rgb(9, 7, 6);
+    color:black;
+    font-weight: 500;
 }

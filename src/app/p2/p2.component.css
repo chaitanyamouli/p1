@@ -1,5 +1,7 @@
 section{
-    background: url(../../assets/images/back3.jpg);
+    /* background: url("src\assets\images\pink.jpg");
+     */
+     background-color: white;
     background-position: absolute;
     background-repeat: no-repeat;
     background-size: cover;
@@ -7,19 +9,20 @@ section{
 }
 section .title h1 {
     text-align: center;
-    color: aliceblue;
-    font-weight: 400;
+    color: black;
+    font-weight: 500;
 }
 
 section .title h4 {
     text-align: center;
-    color: rgb(250, 249, 248);
-    font-weight: 400;
+    color: black;
+    font-weight: 500;
 }
 
 section .sub p {
     padding-left: 30px;
-    color: azure;
+    color: black;
+    font-weight: 500;
 }
 
 section .sub {
@@ -33,7 +36,9 @@ section .sub .center{
 section .sub table tr td p{
   text-align: left;
   font-weight: 600%;
-  color: rgb(251, 245, 238);
+  color: black;
+  font-weight: 500;
+  font-weight: 500;
   padding-left: 10%;
 }
 section .sub table tr td iframe{
@@ -44,7 +49,8 @@ section .desc p{
     padding-left: 10%;
     padding-right: 10%;
     text-align: justify;
-    color: rgb(254, 251, 248);
+    color:black;
+    font-weight: 500;
 }
 
 section img{

@@ -19,31 +19,105 @@ export class Card2Component {
       alt: 'item1',
       title: 'Rajahmundry Godavari Bridge',
       desc: 'The Godavari Bridge or Kovvur–Rajahmundry Bridge is a truss bridge spanning the Godavari River in Rajahmundry,India.',
-      button: 'Readmore'
+      button: 'Readmore',
+      category:'i1'
     },
     {
       src: '../assets/images/h3.jpg',
       alt: 'item2',
       title: 'Maredumilli',
       desc: 'The Maredumilli Forests of East Godavari District are having rich biodiversity which forms part of the Eastern Ghats.',
-      button: 'Readmore'
+      button: 'Readmore',
+      category:'i2'
     },
     {
       src: '../assets/images/r1.jpg',
       alt: 'Item3',
       title: 'ISKCON Temple',
       desc: 'ISKCON Rajahmundry temple is built in two acres of land situated on the bank of sacred River Godavari..',
-      button: 'Readmore'
+      button: 'Readmore',
+      category: 'i3'
     },
     {
       src: '../assets/images/h5.jpg',
       alt: 'Item4',
       title: 'Papikondalu ',
       desc: 'Papikondalu mountain range runs along the River Godavari (Western Godavari) and is located in Rajahmundry, .',
-      button: 'Readmore' 
+      button: 'Readmore' ,
+      category:'i4'
     }
-  ]
-    restaurants = [
+  ];
+
+  getRoute(category: string): string {
+    if (category == 'i1') {
+      return '../l1';
+    }
+    else if (category == 'i2') {
+      return '../l2';
+    }
+    else if (category == 'i3') {
+      return '../l3';
+    }
+    else if (category == 'i4') {
+      return '../l4';
+    }
+    else {
+      return '';
+    }
+
+  }
+  restaurants = [
+    {
+      src: '../assets/images/re1.jpeg',
+      alt: 'item1',
+      title: 'Radisson Blu Resort',
+      desc: 'Set close to Visakhapatnam Airport and Kailasagiri train station, Radisson Blu Resort boasts luxury accommodations. The property houses sophisticated ocean-view rooms, a posh ambiance, hot tubs, and beauty services.',
+      button: 'Viewdetails',
+      category: 'r1'
+    },
+    {
+      src: '../assets/images/re2.jpeg',
+      alt: 'item2',
+      title: 'Sri Raghavendra Inn',
+      desc: 'Situated conveniently close to Visakhapatnam Airport and Railway Station, Sri Raghavendra Inn is an affordable accommodation. The hotel features well-maintained rooms, a homely ambiance, and helpful staff.',
+      button: 'Viewdetails',
+      category: 'r2'
+    },
+    {
+      src: '../assets/images/re3.jpeg',
+      alt: 'Item3',
+      title: 'Treebo Trend Seaesta',
+      desc: 'Featuring 3-star accommodation, Treebo Trend Seaesta RK Beach is set in Visakhapatnam, 2.2 km from Ramakrishna Beach and 8.1 km from Indira Gandhi Zoological Park. This 3-star hotel offers room service, a 24-hour front desk and free WiFi.',
+      button: 'Viewdetails',
+      category: 'r3'
+    },
+    {
+      src: '../assets/images/re4.jpeg',
+      alt: 'Item4',
+      title: 'The Gateway Hotel',
+      desc: 'Spices and History. Beaches and Business. Calicut has it all. The Gateway Hotel keeps you close to the city centre while providing a smart retreat. Step out into this historic city and when you were ready, back to modern comfort tucked away in lush greenery.',
+      button: 'Viewdetails',
+      category: 'r4'
+    }
+  ];
+  getroute(category: string): string {
+    if (category == 'r1') {
+      return '../e1';
+    }
+    else if (category == 'r2') {
+      return '../e2';
+    }
+    else if (category == 'r3') {
+      return '../e3';
+    }
+    else if (category == 'r4') {
+      return '../e4';
+    }
+    else {
+      return '';
+    }
+  }
+    restaurant = [
     {
       src: '../assets/images/re1.jpeg',
       alt: 'item1',
