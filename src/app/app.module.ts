@@ -41,10 +41,8 @@ import { E1Component } from './e1/e1.component';
 import { E2Component } from './e2/e2.component';
 import { E3Component } from './e3/e3.component';
 import { E4Component } from './e4/e4.component';
-import { O1Component } from './o1/o1.component';
-import { O2Component } from './o2/o2.component';
-import { O3Component } from './o3/o3.component';
 import { G1Component } from './g1/g1.component';
+import { Card4Component } from './card4/card4.component';
 
 
 
@@ -54,9 +52,6 @@ import { G1Component } from './g1/g1.component';
     AppComponent,
     NavbarComponent,
     BannerComponent,
-   
-
-    
     HomeComponent,
     ContactComponent,
     AboutComponent,
@@ -90,13 +85,9 @@ import { G1Component } from './g1/g1.component';
     E2Component,
     E3Component,
     E4Component,
-    O1Component,
-    O2Component,
-    O3Component,
-    G1Component
-   
-    
-    
+    G1Component,
+    Card4Component
+ 
   ],
   imports: [
     BrowserModule,

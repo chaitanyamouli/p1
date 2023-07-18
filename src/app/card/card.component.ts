@@ -17,4 +17,7 @@ onclick1(){
 onclick2(){
   this.routes.navigateByUrl('card3')
 }
+onclick3() {
+  this.routes.navigateByUrl('card4')
+}
 }

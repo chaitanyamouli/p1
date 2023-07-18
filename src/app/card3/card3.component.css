@@ -1,23 +1,23 @@
 section {
+    margin-left: 10%;
+    margin-right: 10%;
     /* background: url("src\assets\images\free.jpg"); */
-    background-size: cover;
-    position: absolute;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    
+    padding-top: 0%;
 }
 section .title {
     /* text-align: center; */
-    color:darkred;
+    color:rgb(5, 5, 5);
 }
 section .desc{
     color: #060404;
-    font-weight: 480;
+    font-weight: 490;
     text-align: justify;
     font-style: initial;
 }
 section .t1{
     text-align: center;
-    color:darkred;
+    color:rgb(9, 7, 7);
 }
 section .row .col .card .card-title {
     text-align: center;
@@ -27,6 +27,12 @@ section .row .col .card .card-title h1{
     font-size: 1.5rem;
     padding-top: 15px;
 }
+section .row .col .card img{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
 section .row .col .card .card-title .card-body p{
     font-size: 0.9rem; 
     /* justify-content:flex-end */
@@ -34,7 +40,7 @@ section .row .col .card .card-title .card-body p{
     /* text-align: justify; */
 }
 section .row .col .card .card-title .card-body button{
-    background-color: rgb(134, 48, 8);
+    background-color: rgb(26, 90, 47);
     border: none;
     border-radius: 3px;
     color: rgb(238, 235, 243);
@@ -44,7 +50,7 @@ section .row .col .card .card-title .card-body button{
 
 }
 section .row .col .card .card-title .card-body button:hover{
-    background-color: rgb(232, 153, 69);
+    background-color: rgb(93, 130, 13);
 }
 section .row .col .card{
     transition: transform 420ms ;
@@ -54,5 +60,5 @@ section .row .col .card:hover{
 }
 h3{
     text-align: center;
-    color: darkred;
+    /* color:darkred;; */
 }

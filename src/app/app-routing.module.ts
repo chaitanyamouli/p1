@@ -28,7 +28,7 @@ import { L2Component } from './l2/l2.component';
 import { L3Component } from './l3/l3.component';
 import { L4Component } from './l4/l4.component';
 import { G1Component } from './g1/g1.component';
-
+import { Card4Component } from './card4/card4.component';
 
 const routes: Routes = [
   {path:'',component:WelcomeComponent},
@@ -58,7 +58,9 @@ const routes: Routes = [
   {path:'l2',component:L2Component},
   {path:'l3',component:L3Component},
   {path:'l4',component:L4Component},
-  {path:'g1',component:G1Component}
+  {path:'g1',component:G1Component},
+  {path:'card4',component:Card4Component}
+ 
 ];
 
 @NgModule({

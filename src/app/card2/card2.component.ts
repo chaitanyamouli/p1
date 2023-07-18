@@ -17,8 +17,8 @@ export class Card2Component {
     {
       src: '../assets/images/h2.jpg',
       alt: 'item1',
-      title: 'Rajahmundry Godavari Bridge',
-      desc: 'The Godavari Bridge or Kovvur–Rajahmundry Bridge is a truss bridge spanning the Godavari River in Rajahmundry,India.',
+      title: 'Godavari Bridge',
+      desc: 'The Godavari Bridge or Kovvur-Rajahmundry Bridge is a truss bridge spanning the Godavari River.',
       button: 'Readmore',
       category:'i1'
     },
@@ -26,7 +26,7 @@ export class Card2Component {
       src: '../assets/images/h3.jpg',
       alt: 'item2',
       title: 'Maredumilli',
-      desc: 'The Maredumilli Forests of East Godavari District are having rich biodiversity which forms part of the Eastern Ghats.',
+      desc: 'The Maredumilli Forests are having rich biodiversity which forms part of the Eastern Ghats.',
       button: 'Readmore',
       category:'i2'
     },
@@ -46,7 +46,7 @@ export class Card2Component {
       button: 'Readmore' ,
       category:'i4'
     }
-  ];
+  ]
 
   getRoute(category: string): string {
     if (category == 'i1') {
@@ -66,40 +66,40 @@ export class Card2Component {
     }
 
   }
-  restaurants = [
+    restaurants = [
     {
       src: '../assets/images/re1.jpeg',
       alt: 'item1',
-      title: 'Radisson Blu Resort',
-      desc: 'Set close to Visakhapatnam Airport and Kailasagiri train station, Radisson Blu Resort boasts luxury accommodations. The property houses sophisticated ocean-view rooms, a posh ambiance, hot tubs, and beauty services.',
+      title: 'River Bay Resort',
+      desc: 'Hotel River Bay is located near to the Main Railway Station central located and its just on the Bank of River Godavari and is a three star property',
       button: 'Viewdetails',
-      category: 'r1'
+      category:'r1'
     },
     {
       src: '../assets/images/re2.jpeg',
       alt: 'item2',
-      title: 'Sri Raghavendra Inn',
-      desc: 'Situated conveniently close to Visakhapatnam Airport and Railway Station, Sri Raghavendra Inn is an affordable accommodation. The hotel features well-maintained rooms, a homely ambiance, and helpful staff.',
+      title: 'Hotel Jagadeeswari',
+      desc: 'The hotel is near main road but away from noise and crowd as it is on a lane.It is a good modern hotel with affordable tariff.',
       button: 'Viewdetails',
-      category: 'r2'
-    },
-    {
-      src: '../assets/images/re3.jpeg',
-      alt: 'Item3',
-      title: 'Treebo Trend Seaesta',
-      desc: 'Featuring 3-star accommodation, Treebo Trend Seaesta RK Beach is set in Visakhapatnam, 2.2 km from Ramakrishna Beach and 8.1 km from Indira Gandhi Zoological Park. This 3-star hotel offers room service, a 24-hour front desk and free WiFi.',
-      button: 'Viewdetails',
-      category: 'r3'
+      category:'r2'
     },
     {
       src: '../assets/images/re4.jpeg',
-      alt: 'Item4',
-      title: 'The Gateway Hotel',
-      desc: 'Spices and History. Beaches and Business. Calicut has it all. The Gateway Hotel keeps you close to the city centre while providing a smart retreat. Step out into this historic city and when you were ready, back to modern comfort tucked away in lush greenery.',
+      alt: 'Item3',
+      title: 'Hotel Jetty Grand ',
+      desc: ' Located about 1 km from P.V. Narasimha Rao Park and 2 km from Rajahmundry Railway Station,provides guests with free Wi-Fi connectivity',
       button: 'Viewdetails',
-      category: 'r4'
+      category:'r3'
+    },
+    {
+      src: '../assets/images/re3.jpeg',
+      alt: 'Item4',
+      title: 'La Hospin Hotel',
+      desc: ' let on the banks of the Godavari river,free Wi-Fi connectivity & this low-key hotel is a 9-minute walk from Godavari train station.',
+      button: 'Viewdetails' ,
+      category:'r4'
     }
-  ];
+  ]
   getroute(category: string): string {
     if (category == 'r1') {
       return '../e1';
@@ -117,36 +117,6 @@ export class Card2Component {
       return '';
     }
   }
-    restaurant = [
-    {
-      src: '../assets/images/re1.jpeg',
-      alt: 'item1',
-      title: 'River Bay Resort',
-      desc: 'Hotel River Bay is located near to the Main Railway Station central located and its just on the Bank of River Godavari and is a three star property',
-      button: 'Viewdetails'
-    },
-    {
-      src: '../assets/images/re2.jpeg',
-      alt: 'item2',
-      title: 'Hotel Jagadeeswari',
-      desc: 'The hotel is near main road but away from noise and crowd as it is on a lane.It is a good modern hotel with affordable tariff.',
-      button: 'Viewdetails'
-    },
-    {
-      src: '../assets/images/re4.jpeg',
-      alt: 'Item3',
-      title: 'Hotel Jetty Grand ',
-      desc: ' Located about 1 km from P.V. Narasimha Rao Park and 2 km from Rajahmundry Railway Station,provides guests with free Wi-Fi connectivity',
-      button: 'Viewdetails'
-    },
-    {
-      src: '../assets/images/re3.jpeg',
-      alt: 'Item4',
-      title: 'La Hospin Hotel',
-      desc: ' et on the banks of the Godavari river, this low-key hotel is a 9-minute walk from Godavari train station.',
-      button: 'Viewdetails' 
-    }
-  ]
   doctors = [
     {
       src: '../assets/images/doc.jpg',
@@ -159,14 +129,14 @@ export class Card2Component {
       src: '../assets/images/doc2.jpg',
       alt: 'item2',
       title: 'Dr. T.Kirankumar',
-      desc: 'Homeopathy Doctor 27Years Experience.',
+      desc: 'Homeopathy Doctor 27Years Experience.Cardiothoracic And Vascular Surgeon MBBS | MCh - Cardio Thoracic and Vascular Surgery',
       button: 'Equire now'
     },
     {
       src: '../assets/images/doc3.jpg',
       alt: 'item2',
       title: 'Dr. Narendranadh Meda',
-      desc: 'Vascular Surgeon 17 Years Exp. MBBS, DNB ( Peripheral Vascular Surgery), MS - General Surgery',
+      desc: 'Vascular Surgeon 17 Years Exp. MBBS, DNB ( Peripheral Vascular Surgery), MS - General Surgery ,Cardiothoracic And Vascular Surgeon.',
       button: 'Equire now'
     }
   ]
@@ -175,7 +145,7 @@ export class Card2Component {
       src: '../assets/images/g1.jpeg',
       alt: 'item1',
       title: 'Mis. Madhumadi',
-      desc: 'I am a very good English speaker. I was very passionate about travelling and guiding. I have many best concepts to travel with thrills you and have very good information about places and good time fun time. ',
+      desc: 'I am a very good English speaker. I was very passionate about travelling and guiding. I have many best concepts to travel with thrills you and have very good information. ',
       button: 'Book Guide'
     },
     {
@@ -189,7 +159,7 @@ export class Card2Component {
       src: '../assets/images/tt.jpg',
       alt: 'item2',
       title: 'Mis. Sunethri',
-      desc: 'I am born & brought up in Visakhapatnam, well versed with best. Beaches, Parks, Hill Stations, Meusems etc. I am confident with my communication skills.I am able to deal with all people nicely. ',
+      desc: 'I am born & brought up in Visakhapatnam, well versed with best. Beaches, Parks, Hill Stations, Meusems etc. I am confident with my communication skills. ',
       button: 'Book Guide'
     }
   ]

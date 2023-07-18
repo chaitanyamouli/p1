@@ -10,7 +10,7 @@ export class Card1Component {
       src: '../assets/images/b1.jpg',
       alt: 'item1',
       title: 'Borra caves',
-      desc: 'Located on the east coast of India, the Borra Caves are situated in the Ananthagiri hills of the Araku Valley in Visakhapatnam district. ',
+      desc: 'The Borra Caves are situated in the Ananthagiri hills of the Araku Valley in Visakhapatnam district. ',
       button: 'Readmore',
       category: 'i1'
     },
@@ -18,7 +18,7 @@ export class Card1Component {
       src: '../assets/images/k1.jpeg',
       alt: 'item2',
       title: 'Kailasagiri',
-      desc: 'Located in the scenic locales of Vizag, Kailash Giri is a beautiful hilltop park perched at a height of 360 ft. Sprawling over 100 acres of lush green land area.',
+      desc: 'Kailash Giri is a beautiful hilltop park perched at a height of 360 ft. Sprawling over 100 acres of lush green land area.',
       button: 'Readmore',
       category: 'i2'
     },
@@ -26,7 +26,7 @@ export class Card1Component {
       src: '../assets/images/r1.jpg',
       alt: 'Item3',
       title: 'Rushikonda beach',
-      desc: 'The Rushikonda Beach is a stunning shore located on the coast of the Bay of Bengal, in the Indian state of Andhra Pradesh',
+      desc: 'The Rushikonda Beach is a stunning shore located on the coast of the Bay of Bengal,in state of Andhra Pradesh',
       button: 'Readmore',
       category: 'i3'
     },
@@ -34,7 +34,7 @@ export class Card1Component {
       src: '../assets/images/s1.jpeg',
       alt: 'Item4',
       title: 'Submarine Museum',
-      desc: 'Submarine Museum is located in the south-eastern state of India. The museum is inside an actual submarine,which was Indias 5th submarine. ',
+      desc: 'Submarine Museum is located in the south-eastern state of India. The museum is inside an actual submarine. ',
       button: 'Readmore',
       category: 'i4'
     }
@@ -77,7 +77,7 @@ export class Card1Component {
       src: '../assets/images/re3.jpeg',
       alt: 'Item3',
       title: 'Treebo Trend Seaesta',
-      desc: 'Featuring 3-star accommodation, Treebo Trend Seaesta RK Beach is set in Visakhapatnam, 2.2 km from Ramakrishna Beach and 8.1 km from Indira Gandhi Zoological Park. This 3-star hotel offers room service, a 24-hour front desk and free WiFi.',
+      desc: 'Featuring 3-star accommodation, Treebo Trend Seaesta RK Beach is set , 2.2 km from Ramakrishna Beach and 8.1 km from Indira Gandhi Zoological Park. 3-star hotel offers room service, 24-hour free WiFi.',
       button: 'Viewdetails',
       category: 'r3'
     },
@@ -85,7 +85,7 @@ export class Card1Component {
       src: '../assets/images/re4.jpeg',
       alt: 'Item4',
       title: 'The Gateway Hotel',
-      desc: 'Spices and History. Beaches and Business. Calicut has it all. The Gateway Hotel keeps you close to the city centre while providing a smart retreat. Step out into this historic city and when you were ready, back to modern comfort tucked away in lush greenery.',
+      desc: 'Spices and History. Beaches and Business. Calicut has it all. The Gateway Hotel keeps you close to the city centre while providing a smart retreat. Step out into this historic city and when you were ready, tucked away in lush greenery.',
       button: 'Viewdetails',
       category: 'r4'
     }
@@ -120,7 +120,7 @@ export class Card1Component {
       src: '../assets/images/doc2.jpg',
       alt: 'item2',
       title: 'Dr. Shrija',
-      desc: '*Cardiothoracic And Vascular Surgeon   MBBS | MS - General Surgery | MCh - Cardio Thoracic and Vascular Surgery',
+      desc: '*Cardiothoracic And Vascular Surgeon MBBS | MCh - Cardio Thoracic and Vascular Surgery',
       button: 'Equire now',
       category: 'd2'
     },

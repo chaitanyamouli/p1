@@ -1,20 +1,26 @@
 <app-navbar1></app-navbar1>
-<section class="mt-4 mxx-4" >
-    <div class="title"><h1> Rajahmundry</h1></div><br>
-    <div class="desc"><p>Rajahmundry, city, eastern Andhra Pradesh state, southern India. It lies at the head of the Godavari River
-         delta, about 30 miles (50 km) west of Kakinada.In 1449 Rajahmundry was captured by Kapileshvara, 
-         the Orissa ruler. In 1757 it was ceded to the British. A short distance downstream, 
-         at Dowalaiswaram, the British civil engineer Sir Arthur Joseph Cotton built a 
-         dam across the Godavari in the mid-19th century, the first major irrigation project 
-         on that river. At the turn of the 20th century, 
-         the first of three railway bridges over the Godavari was built at Rajahmundry 
-         and had 56 spans and an overall length of 9,678 feet (2,950 metres). 
-         The second bridge, for both road and rail traffic, opened in the early 1970s. The third structure, a rail bridge completed in 1997, was built adjacent to the first bridge and replaced the old span. A fourth bridge, for road traffic only, opened in 2015.</p></div> <br>
-    <div class="t1"><h2><u> Famous places</u></h2></div> <br>
+<section class="mt-4 mxx-4">
+    <div class="title">
+        <h1> Tirupati</h1>
+    </div><br>
+    <div class="desc">
+        <p>Lord Venkateswara Temple at Tirumala (Tirupati) is one of the most famous temples in India. With more than 35
+            million pilgrims visiting the temple every year, it is one of the most visited holy places and also one of
+            the richest temples in the world. Built on the Venkata Hill, which is a part of the famous Seshachalam
+            Hills, Tirupati Temple is considered as one of the holiest shrines by the Hindus. According to a legend,
+            Lord Vishnu assumed the form of Sri Venkateswara to save mankind from the adversities of Kali Yuga. There
+            are many legends associated with the origin of this age-old temple. The larger than life statue of the main
+            deity is said to have formed on its own, making it one of the eight ‘Swayambhu Kshetras’ (self-manifested
+            image) of Lord Vishnu. Many ancient texts, including the Rig Veda mention the existence and prominence of
+            the temple.</p>
+    </div> <br>
+    <div class="t1">
+        <h2><u> Famous places</u></h2>
+    </div> <br>
     <div class="row row-cols-1 row-cols-md-4 g-4">
         <div class="col" *ngFor="let l1 of famous">
             <div class="card shadow-lg" data-aos="flip-left">
-                <img [src]="l1.src" [alt]="l1.alt" height="280px" >
+                <img [src]="l1.src" [alt]="l1.alt" height="280px">
                 <div class="card-title">
                     <h1>{{l1.title}}</h1>
                     <div class="card-body">
@@ -25,11 +31,13 @@
             </div>
         </div>
     </div><br><br>
-    <div class="t1"><h2><u>Recommended Restaurants</u></h2></div> <br>
+    <div class="t1">
+        <h2><u>Recommended Restaurants</u></h2>
+    </div> <br>
     <div class="row row-cols-1 row-cols-md-4 g-4">
         <div class="col" *ngFor="let l2 of restaurants">
             <div class="card shadow-lg" data-aos="flip-right">
-                <img [src]="l2.src" [alt]="l2.alt" height="280px" >
+                <img [src]="l2.src" [alt]="l2.alt" height="280px">
                 <div class="card-title">
                     <h1>{{l2.title}}</h1>
                     <div class="card-body">
@@ -40,11 +48,13 @@
             </div>
         </div>
     </div><br><br>
-    <div class="t1"><h2><u>Recommended Doctors</u></h2></div> <br>
+    <div class="t1">
+        <h2><u>Recommended Doctors</u></h2>
+    </div> <br>
     <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col" *ngFor="let l3 of doctors">
             <div class="card shadow-lg" data-aos="flip-left">
-                <img [src]="l3.src" [alt]="l3.alt" height="350px" >
+                <img [src]="l3.src" [alt]="l3.alt" height="350px">
                 <div class="card-title">
                     <h1>{{l3.title}}</h1>
                     <div class="card-body">
@@ -55,11 +65,13 @@
             </div>
         </div>
     </div><br><br>
-    <div class="t1"><h2><u>Recommended Guides</u></h2></div> <br>
+    <div class="t1">
+        <h2><u>Recommended Guides</u></h2>
+    </div> <br>
     <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col" *ngFor="let l4 of guides">
             <div class="card shadow-lg" data-aos="flip-right">
-                <img [src]="l4.src" [alt]="l4.alt" height="200px" >
+                <img [src]="l4.src" [alt]="l4.alt" height="200px">
                 <div class="card-title">
                     <h1>{{l4.title}}</h1>
                     <div class="card-body">
@@ -70,5 +82,5 @@
             </div>
         </div>
     </div><br><br>
-    <h3 > **Thank you for visiting our website** </h3> <br><br>
+    <h3> **Thank you for visiting our website** </h3> <br><br>
 </section>
